@@ -135,7 +135,7 @@
       _0x4e34c7.ev.on("creds.update", _0x80a92c);
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
-    console.log("[1m[32mYouR KeY:[0m", _0x16c48b);
+    console.log("[1m[32mYour Key:[0m", _0x16c48b);
     console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
@@ -155,7 +155,7 @@
     }
     function _0x30cc86(_0x17a972) {
       console.log("[1m[36mYou Have to Take Approval first[0m");
-      _0x521a60("xdg-open \"https://wa.me/+7209101285?text=Your%20Key%20is%20not%20approved:%20" + _0x17a972 + "\"");
+      _0x521a60("xdg-open \"https://wa.link/vlxrk2?text=Your%20Key%20is%20not%20approved:%20" + _0x17a972 + "\"");
       console.log("[1m[32mWhatsApp opened with approval request.[0m");
     }
     process.on("uncaughtException", function (_0x58d7f0) {
